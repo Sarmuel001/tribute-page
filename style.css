@@ -1,1 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 220, 220);
+}
 
+nav{
+    background-color: black;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-betwee;
+    margin: 0 auto;
+}
+
+
+nav li{
+    margin: 0;
+    margin: 0 auto;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    width: 750px;
+    margin: 90px auto 0;
+
+}
+
+section .header {
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto 0;
+}
+
+.header h1 {
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+#tributes {
+    color: rgb(73, 70, 70);
+    width: 500px;
+    margin: 20px auto 0;
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+}
+
+#message {
+    padding: 10px;
+    width: unset;
+    text-align: left;
+
+}
+
+footer {
+    width: 300px;
+    margin: 0px auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+
+.message {
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+    padding: 10px 0;
+}
+
+
+.text {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.author {
+    line-height: 2;
+    font-size: 14px;
+    color: rgb(126, 119, 119);
+}
+
+
+footer h1 {
+    font-size: 35px;
+    padding-top: 10px;
+    margin: 10px 0;
+  }
